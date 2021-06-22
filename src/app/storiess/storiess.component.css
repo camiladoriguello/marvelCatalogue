@@ -1,0 +1,23 @@
+.card{
+    padding: 5px;
+}
+
+.mat-card-subtitle{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mat-mini-fab{
+    float: left;
+    margin-right: 20px;
+}
+
+.mat-icon{
+    float: left;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(146, 5, 5);
+}

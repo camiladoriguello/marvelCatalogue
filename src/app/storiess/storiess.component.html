@@ -1,0 +1,20 @@
+<div fxFlex fxLayout="column">
+    <div fxLayout="row wrap">
+        <div fxFlex="100" fxFlex.md="100" fxFlex.sm="100" fxFlex.xs="100" fxLayout="column"
+            *ngFor="let storiess of allStoriess | async" class="card">
+            <mat-card>
+                <!-- <button mat-mini-fab disabled aria-label="Example icon button with a home icon">
+                    <mat-icon>book</mat-icon>
+                </button> -->
+                <mat-icon aria-hidden="false">auto_stories</mat-icon>
+                <mat-card-content>
+                    <p>{{ storiess.title | uppercase}}</p>
+                </mat-card-content>  
+                <mat-icon aria-hidden="false">date_range</mat-icon>
+                <mat-card-content>
+                    <p>{{ storiess.modified | uppercase}}</p>
+                </mat-card-content>  
+            </mat-card>
+        </div>
+    </div>
+</div>

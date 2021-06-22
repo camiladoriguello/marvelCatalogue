@@ -1,0 +1,24 @@
+.card-character{
+    padding: 5px;
+}
+
+img.mat-card-image{
+    min-height: 374px;
+    max-height: 374px;
+}
+
+.mat-card-title{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+
+.mat-icon-button{
+    display: inline-block;
+}
+
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(146, 5, 5);
+}
