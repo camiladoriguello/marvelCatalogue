@@ -12,7 +12,7 @@
                 </mat-card-content>  
                 <mat-icon aria-hidden="false">date_range</mat-icon>
                 <mat-card-content>
-                    <p>{{ storiess.modified | uppercase}}</p>
+                    <p>{{ storiess.modified | date : 'medium' | uppercase }}</p>
                 </mat-card-content>  
             </mat-card>
         </div>
