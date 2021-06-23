@@ -10,7 +10,7 @@ export class SeriesApiService {
 
   PUBLIC_KEY = 'deadb53ba13b2280d325ce2e9f63fe4f'
   HASH = '20ed66fa8959b6bab426014023f20cd8'
-  URL_API = `http://gateway.marvel.com/v1/public/series?ts=1&apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`
+  URL_API = `https://gateway.marvel.com/v1/public/series?ts=1&apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`
 
   constructor(private http: HttpClient) { }
 
